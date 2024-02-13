@@ -4,6 +4,7 @@
  * yapılacak bir görev ekleyebilmek
  * yapılan görevi tamamlandığına dair işaretleyebilmek
  * herhangi bir görevi silmek
+ * bütün görevleri yapıldı olarak işaretleyen bir buton
  * yapılacak bütün görevleri silen bir buton
  * sadece yapılan görevleri silen bir buton. Aynı zamanda bu buton gerektiği zaman visible oluyor aksi takdirde invisible
  * bütün görevleri yapıldı olarak işaretleyebilmek
