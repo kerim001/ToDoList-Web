@@ -7,7 +7,7 @@ function addTask(){
     // addTask adında bir fonksiyon oluşturmamıza yarıyor
     if(inputBox.value==''){                         
         // bunun sayesinde karakter girmediğimiz durumda bize uyarı veren bir sistem oluşturduk
-        alert("hoca yazi yaz yaziii")               
+        alert("Herhangi bir şey yazmadınız!")               
         // sayfa üstünde çıkacak uyarı bu
     }
     else{                                           
@@ -43,7 +43,7 @@ function checkedAll() {
     listItems.forEach(item => {
         // Her bir öğenin sınıfını kontrol eder
         if (!item.classList.contains("checked")) {
-            // Eğer herhangi bir öğe checked değilse, isAllChecked değişkenini false olarak ayarla ---------- ben ! kullanımını bilmiyordum
+            // Eğer herhangi bir öğe checked değilse, isAllChecked değişkenini false olarak ayarla 
             isAllChecked = false;
         }
         
@@ -61,7 +61,7 @@ function checkedAll() {
     saveData();
 }
 
-inputBox.addEventListener('keydown',function (event) { //lanet olsun burayı tek yapamadım çok da basitmiş
+inputBox.addEventListener('keydown',function (event) { 
     if (event.key==='Enter'){addTask()} 
 });
 
@@ -90,7 +90,7 @@ ListContainer.addEventListener("click",function(e){
         // kaydetme fonksiyonu uyguladık
     }
     else if(e.target.tagName=="SPAN"){
-        alert("hoca silcen ha");                    
+        alert("Tıkladığınız görevi siliyorsunuz!");                    
         // bunun sayesinde silmeden önce sayfa üstünde uyarı vermesini sağladık
       
         // InputEvent.addEventListener('keydown',function(event)){
